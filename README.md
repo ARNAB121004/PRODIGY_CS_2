@@ -26,7 +26,7 @@ A simple Python tool that analyzes the strength of a password based on standard 
 ### Run the Program
 
 ```bash
-python password_checker.py
+python pass_strength.py
 ```
 ## Example
 
