@@ -1,10 +1,10 @@
-# 🔐 Password Strength Checker
+# Password Strength Checker
 
 A simple Python tool that analyzes the strength of a password based on standard security criteria. It provides a score and feedback to help users improve their password.
 
 ---
 
-## ✅ Features
+## Features
 
 - Checks password for:
   - Minimum length (8 characters)
@@ -17,7 +17,7 @@ A simple Python tool that analyzes the strength of a password based on standard 
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Requirements
 
@@ -27,3 +27,27 @@ A simple Python tool that analyzes the strength of a password based on standard 
 
 ```bash
 python password_checker.py
+```
+## Example
+
+=== Password Strength Checker ===
+Enter your password: Hello123
+
+Password Strength: Strong
+Suggestions:
+ - Add special characters (!@#$, etc.).
+
+## Future Enhancements
+- GUI using Tkinter
+
+- Color-coded CLI output
+
+- Password blacklist (common passwords)
+
+- Integration with signup/login forms
+
+## Security Note
+This is a local tool and does not store or transmit passwords. It is intended for educational and basic use only — not for enterprise-level password validation.
+
+## License
+This project is licensed under the MIT License.
